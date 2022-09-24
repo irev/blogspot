@@ -8,19 +8,19 @@ $ ls
 
 <table>
  <tr><td> -a </td> <td> Show all (including hidden)</td></tr>
--R
-Recursive list
--r
-Reverse order
--t
-Sort by last modified
--S
-Sort by file size
--l
-Long listing format
--1
-One file per line
--m
-Comma-­sep­arated output
--Q
-Quoted output
+ <tr><td> -R </td> <td>
+Recursive list </td></tr>
+<tr><td> -r </td> <td>
+Reverse order </td></tr>
+<tr><td> -t </td> <td>
+Sort by last modified </td></tr>
+<tr><td> -S </td> <td>
+Sort by file size </td></tr>
+<tr><td> -l </td> <td>
+Long listing format </td></tr>
+<tr><td> -1 </td> <td>
+One file per line </td></tr>
+<tr><td> -m </td> <td>
+Comma-­sep­arated output </td></tr>
+<tr><td> -Q </td> <td>
+Quoted output </td></tr>

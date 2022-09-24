@@ -170,7 +170,7 @@ Tambahkan IP server Elasticsearch. Edit “filebeat.yml.”
 ```
 Kemudian, ubah baris berikut.
 
-output.elasticsearch.hosts: [‘http://ELASTIC_SERVER_IP:9200′]
+output.elasticsearch.hosts: [‘http://{ELASTIC_SERVER_IP}:9200′]
 Selanjutnya, aktifkan dan mulai layanan Filebeat:
 ```
 # systemctl daemon-reload

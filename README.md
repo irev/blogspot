@@ -1,2 +1,2 @@
 # blogspot meeduns.blogspot.com
-my blogspot  
+my blogspot [url]meeduns.blogspot.com 

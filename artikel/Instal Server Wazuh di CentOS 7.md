@@ -179,7 +179,7 @@ Selanjutnya, aktifkan dan mulai layanan Filebeat:
 # systemctl enable filebeat.service
 # systemctl start filebeat.service
 ```
-## 2. Memasang Tumpukan Elastis
+## 2. Menginstal Elastic Stack
 Kita dapat mengkonfigurasi server CentOS kedua dengan ELK.
 
 Lakukan konfigurasi pada server tumpukan elastis.

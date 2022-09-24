@@ -125,9 +125,11 @@ Filebeat adalah alat di server Wazuh yang secara aman meneruskan peringatan dan 
 # rpm –import https://packages.elastic.co/GPG-KEY-elasticsearch
 ```
 Siapkan repositori:
+
 ```
 # vim /etc/yum.repos.d/elastic.repo
 ```
+
 Tambahkan konten berikut ke server:
 ```
 [elasticsearch-7.x]

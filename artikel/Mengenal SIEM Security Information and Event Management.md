@@ -1,7 +1,4 @@
-SIEM merupakan singkatan dari "Security Information and Event Management".
-Membantu melindungi lingkungan TI dari serangan dunia maya dan mematuhi standar kepatuhan yang diperketat, sistem SIEM menjadi landasan paradigma keamanan yang diterapkan oleh semakin banyak organisasi.
 
-Peristiwa pada sistem dapat mencakup dan tidak terbatas pada perubahan kredensial, upaya akses yang gagal, basis peran atau perubahan atribut ke akun, penggunaan berbasis token, upaya akses, dan kegagalan, dll. Saat mencatat setiap tindakan sistem ke sistem dimungkinkan, seringkali tidak disarankan berdasarkan volume log dan data terkait keamanan yang dapat ditindaklanjuti. Organisasi dapat menggunakan AU-2 a sampai e, sebagai dasar untuk membangun dari sambil mematuhi kontrol lain yang mungkin memerlukan atau memanggil persyaratan audit keamanan tertentu secara lebih rinci.
 
 ## Peneliti keamanan komputer Chris Kubecka mengidentifikasi kasus penggunaan SIEM berikut, yang dipresentasikan pada konferensi peretasan 28C3 (Kongres Komunikasi Chaos)
 - Visibilitas SIEM dan deteksi anomali dapat membantu mendeteksi zero-days atau kode polimorfik . Terutama karena tingkat deteksi anti-virus yang rendah terhadap jenis malware yang berubah dengan cepat ini.

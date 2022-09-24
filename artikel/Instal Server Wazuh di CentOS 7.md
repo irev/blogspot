@@ -192,15 +192,16 @@ Kemudian, perbarui sistem:
 ```
 # yum update -y
 ```
-Menginstal ELK
+### Menginstal ELK
 
 Instal Elastic Stack dengan paket RPM dan kemudian tambahkan repositori Elastic dan kunci GPG-nya:
 ```
 # rpm –import https://packages.elastic.co/GPG-KEY-elasticsearch
 ```
 Kemudian, buat file repositori:
-
+```
 # vim /etc/yum.repos.d/elastic.repo
+```
 Kemudian, tambahkan konten berikut ke file:
 ```
 [elasticsearch-7.x]
@@ -212,7 +213,7 @@ enabled=1
 autorefresh=1
 type=rpm-md
 ```
-Menginstal Elasticsearch
+### Menginstal Elasticsearch
 Pertama, Instal paket Elasticsearch:
 ```
 # yum install elasticsearch-7.5.1
@@ -259,14 +260,15 @@ Check the status of the elastic search.
 systemctl status elasticsearch.service
 
 Selanjutnya, periksa file log untuk masalah apa pun.
-
+```
 # tail -f /var/log/elasticsearch/elasticsearch.log
+```
 Setelah Elasticsearch aktif dan berjalan, kita perlu memuat template Filebeat. Jalankan perintah berikut di server Wazuh:
 ```
 filebeat setup –index-management -E setup.template.json.enabled=false
 ```
 
-## Memasang Kibana
+### Menginstal Kibana
 Pertama, Instal paket Kibana:
 ```
 # yum install kibana-7.5.1
@@ -296,7 +298,7 @@ Kemudian, aktifkan dan mulai layanan Kibana:
 ```
 Menambahkan API Wazuh ke Konfigurasi Kibana
 
-Sunting “wazuh.yml.”
+Sunting (edit) “wazuh.yml.”
 ```
 # vim /usr/share/kibana/plugins/wazuh/wazuh.yml
 ```
@@ -308,8 +310,8 @@ Terakhir, simpan dan keluar dari file dan mulai ulang layanan Kibana.
 ```
 Kami menginstal server Wazuh dan server ELK. Sekarang kita akan menambahkan host menggunakan agen.
 
-3. Memasang agen Wazuh
-I. Menambahkan Server Ubuntu
+## 3. Memasang agen Wazuh
+### I. Menambahkan Server Ubuntu
 sebuah. Pertama, menginstal paket yang dibutuhkan
 ```
 # apt-get install curl apt-transport-https lsb-release gnupg2
@@ -330,7 +332,7 @@ Perintah di bawah ini menambahkan IP “WAZUH_MANAGER” ke konfigurasi agen waz
 WAZUH_MANAGER=”52.91.79.65″ apt-get install wazuh-agent
 ```
 
-II. Menambahkan host CentOS
+### II. Menambahkan host CentOS
 Tambahkan repositori Wazuh.
 
 ```
@@ -354,7 +356,9 @@ protect=1
 Kemudian, instal agen.
 
 WAZUH_MANAGER=”52.91.79.65″ yum install wazuh-agent
-4. Mengakses Dasbor Wazuh
+
+
+## 4. Mengakses Dasbor Wazuh
 Pertama, jelajahi Kibana menggunakan IP.
 ```
 http://IP or hostname:5601/

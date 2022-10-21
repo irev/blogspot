@@ -1,5 +1,5 @@
-
-
+08 September 2022 
+ 
 ## Peneliti keamanan komputer Chris Kubecka mengidentifikasi kasus penggunaan SIEM berikut, yang dipresentasikan pada konferensi peretasan 28C3 (Kongres Komunikasi Chaos)
 - Visibilitas SIEM dan deteksi anomali dapat membantu mendeteksi zero-days atau kode polimorfik . Terutama karena tingkat deteksi anti-virus yang rendah terhadap jenis malware yang berubah dengan cepat ini.
 - Parsing, normalisasi log dan kategorisasi dapat terjadi secara otomatis, terlepas dari jenis komputer atau perangkat jaringan, selama dapat mengirim log.

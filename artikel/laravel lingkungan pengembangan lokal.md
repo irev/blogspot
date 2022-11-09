@@ -55,4 +55,5 @@ Jalankan perintah berikut pada terminal/command line
 composer create-project laravel/laravel:^9.0 test-app.
 ```
 
-Untuk langkah selanjutnya silahkan baca tutorial [Cara Install Laravel versi 9 Framework](#).
+Untuk langkah selanjutnya silahkan baca tutorial [Cara Install Laravel versi 9 Framework]([#](https://meeduns.blogspot.com/2022/11/cara-install-laravel-9-di-linux-mint.html)) atau [Cara Install Laravel 9 di Linux Mint 20.3 Una](https://meeduns.blogspot.com/2022/11/cara-install-laravel-9-di-linux-mint.html).
+

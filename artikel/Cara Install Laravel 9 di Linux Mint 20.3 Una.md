@@ -60,10 +60,6 @@ Zend Engine v4.1.2, Copyright (c) Zend Technologies
 
 Install Laravel akan menggunakan Composer untuk itu install Composer terlebih dahulu.
 
-sudo apt install curl git unzip
-curl –sS https://getcomposer.org/installer | php
-sudo mv composer.phar /usr/local/bin/composer
-
 ```bash
 sudo apt install curl git unzip 
 curl–sS https://getcomposer.org/installer | php 

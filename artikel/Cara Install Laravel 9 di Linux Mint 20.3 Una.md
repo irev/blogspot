@@ -62,7 +62,7 @@ Install Laravel akan menggunakan Composer untuk itu install Composer terlebih da
 
 ```bash
 sudo apt install curl git unzip 
-curl–sS https://getcomposer.org/installer | php 
+curl –sS https://getcomposer.org/installer | php 
 sudo mv composer.phar /usr/local/bin/composer
 ```
 

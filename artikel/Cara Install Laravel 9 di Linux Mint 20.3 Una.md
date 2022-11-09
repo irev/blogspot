@@ -1,4 +1,4 @@
-## Cara Install Laravel 9 di Ubuntu 20.04
+## Cara Install Laravel 9 di Linux Mint 20.3 Una
 
 
 Laravel 9 baru saja [dirilis](https://laravel-news.com/laravel-9-released)
